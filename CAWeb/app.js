@@ -2,7 +2,7 @@ var http = require('html'),
     express = require('express'),
     fs = require('fs'),
     xmlParse = require('xslt-processor').xmlParse,
-    xsltProcess = require('xslt-process').xsltProcess,
+    xsltProcess = require('xslt-processor').xsltProcess,
     xslt2js = require('xml2js');
 
 var router = express(); //The set our routing to be handled by Express
@@ -75,6 +75,7 @@ router.post('/post/json', function(req, res) {
   res.redirect('back');
 
 });
+
 
 // POST request to add to JSON & XML files
 router.post('/post/delete', function(req, res) {
