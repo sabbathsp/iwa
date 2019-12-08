@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cafemenu>
+  <section name="LAGER">
+    <entree vegetarian="true">
+      <item>Heineken</item>
+      <price>5.90</price>
+    </entree>
+    <entree>
+      <item>Hop House</item>
+      <price>5.70</price>
+    </entree>
+    <entree>
+      <item>Tiger</item>
+      <price>5.20</price>
+    </entree>
+    <entree>
+      <item>Coors</item>
+      <price>4.90</price>
+    </entree>
+    <entree>
+      <item>Carlsberg</item>
+      <price>5.40</price>
+    </entree>
+  </section>
+  <section name="I.P.A">
+    <entree>
+      <item>Brú Ri</item>
+      <price>4.90</price>
+    </entree>
+  </section>
+  <section name="STOUT">
+    <entree>
+      <item>Murphys</item>
+      <price>6.00</price>
+    </entree>
+    <entree>
+      <item>Guinness</item>
+      <price>6.20</price>
+    </entree>
+  </section>
+  <section name="PALE ALE">
+    <entree>
+      <item>Smithwicks</item>
+      <price>5.40</price>
+    </entree>
+    <entree>
+      <item>Cute Hoor</item>
+      <price>4.90</price>
+    </entree>
+  </section>
+</cafemenu>
